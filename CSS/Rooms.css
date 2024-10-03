@@ -1,0 +1,99 @@
+.blurred {
+  text-align: center;
+  width: 100%;
+  height: 250px;
+}
+.blurred-text {
+  position: absolute;
+  top: 14%;
+  left: 30%;
+  color: white;
+  font-weight: 700;
+}
+.rooms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  width: 75vw;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 6rem;
+  border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.room img {
+  height: 45.5vh;
+  width: 75vh;
+}
+.room-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  color: #2d220f;
+}
+.room-details b{
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-size: 36px;
+  margin-right: 50px;
+}
+.room-details small, span {
+  margin-right: 5px;
+  letter-spacing: 0.2px;
+}
+.room-details span {
+  font-size: 30px;
+  color: #2d220f;
+}
+.imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.imgs i {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.btn button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px 20px 20px;
+  color: #081624;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #AE954B;
+  position: relative;
+  margin-top: 15px;
+}
+.btn button:hover {
+  cursor: pointer;
+}
+.blurred-image img {
+  width: 100%;
+  height: 20rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.blurred-image p {
+  color: white;
+  font-size: 2rem;
+  margin-top: 9rem;
+  margin-left: 2.5rem;
+  position: absolute;
+  transition: .5s;
+}
+.blurred-image p:hover {
+  color: #AE954B;
+  cursor: pointer;
+}
+.blurred-image span {
+  position: absolute;
+  font-size: 5rem;
+  color: white;
+  margin-left: 20rem;
+  margin-top: 7rem;
+}

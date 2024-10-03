@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Hotel Aditya</title>
+    <link rel="stylesheet" href="/CSS/main.css" />
+  </head>
+  <body>
+    <div class="navbar-parent">
+      <div class="navbar-contents">
+        <a href="">Hotel Aditya</a>
+        <a href="">Home</a>
+        <a href="Rooms.html">Rooms</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        <a href="">Connect with Us</a>
+      </div>
+      <div class="navbar-location">
+        <p><i class="fa-solid fa-map-location-dot"></i></i>Panipat</p>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="/Images/img1.jpeg" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <img src="/Images/img2.jpeg" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <img src="/Images/img3.jpeg" style="width: 100%" />
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <script src="/JS/main.js"></script>
+  </body>
+</html>
